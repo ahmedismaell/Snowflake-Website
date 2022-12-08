@@ -1,0 +1,68 @@
+body { 
+background: #121212; 
+font-family: sans-serif;
+}
+
+.fa { 
+    color: white;
+    font-size: 40px;
+    margin: 10px 20px;
+    transition: all 0.4s ease-in-out;
+
+}
+.fa:hover { 
+    color: deepskyblue;
+    filter: drop-shadow(0 0 2px #204d74);
+    transform:scale(1.4);
+}
+
+.logo {
+   filter: drop-shadow(0 0 2px deepskyblue);
+   transition: all 0.3s ease-in;
+}
+
+.login-form { 
+    margin-top: 50px;
+    width: auto;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.login-text {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+
+
+.login-username { 
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    padding: 20px 20px;
+
+}
+.login-password { 
+    width: 200px;
+    height: 30px;
+    padding: 20px 20px;
+}
+.chk { 
+    margin-top: 10px;
+    color: white;
+}
+
+
+.login-btn {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 50px;
+    background: #0957ca;
+    border-color:#0957ca ;
+    border-radius: 7px;
+    
+}

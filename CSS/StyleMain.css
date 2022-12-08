@@ -1,0 +1,360 @@
+/*---
+ background-color: #34495E !important; for navbar
+
+
+---*/
+body { 
+    font-family:sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    padding: 22px 0px;
+    border-bottom: none !important;
+}
+
+
+
+
+.navbar-inverse {
+    background-color: transparent !important ;
+    transition: all 0.8s ease-in;
+}
+.navbar ul li a {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    
+}
+.navbar ul li a:hover {
+   
+    filter: drop-shadow(0 0 1em white) !important;
+}
+.navbar-toggle {
+    border: 1px solid white !important;
+    transition: all 0.4s ease-in !important;
+}
+.navbar-toggle:hover{
+    background-color: deepskyblue !important;
+    
+}
+.navbar-inverse .navbar-collapse {
+    border-color: transparent !important;
+}
+
+.slider {
+    width: 100%;
+    height: 700px;
+    background-image: url(../IMG/slider.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.slider-overlay {
+    width: 100%; 
+    height: 100%;
+    background: rgba(0, 0, 0, 0.80);
+    position: relative;
+}
+.slider-content {
+    position: absolute;
+    top: 39%;
+    width: 100%;
+}
+.icons .fa {
+    font-size: 35px;
+    color: white;
+    margin-right: 8px;
+}
+.cta-div{
+    margin-top: 30px;
+}
+.btn1 {
+    padding: 10px 30px; 
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid white;
+    border-top-left-radius: 15px;
+    transition: all 0.2s ease-in;
+    margin-right: -6px;
+}
+.btn1:hover{
+    text-decoration:none;
+    color: white;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+.btn2 {
+    padding: 10px 30px; 
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid white;
+    border-bottom-right-radius: 15px;
+    transition: all 0.2s ease-in;
+}
+.btn2:hover{
+    text-decoration:none;
+    color: white;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+
+.slider .antext {
+    color: white;
+    display: inline;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.primary {
+    color: deepskyblue;
+}
+.secondary {
+    background-color: #34495e !important;
+
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+.row {
+    display: inline;
+}
+
+
+.service-wrap {
+box-shadow: 0 0 9px rgba(0, 0, 0, 0.10);
+overflow: hidden;
+padding: 25px 35px;
+position:relative;
+transition: all 0.5s ease 0s;
+z-index: 9;
+margin-top:20px ;
+}
+
+.service-wrap::before , .service-wrap::after {
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9  ;
+    transition: all 0.5s;
+    opacity: 0;
+    background:#34495e;
+}
+
+.service-wrap::before{
+    top: -37px;
+    left: 100%;
+
+}
+.service-wrap:hover::before {
+    left: -27px;
+    opacity: 1;
+}
+.service-wrap::after {
+    right: 100% ;
+    bottom: -37px;
+
+}
+
+.service-wrap:hover::after {
+    right: -37px;
+    opacity: 1;
+}
+
+.service-wrap:hover {
+    color: white;
+}
+
+.service-wrap:h3 {
+    color: white;
+   
+}
+
+.service-wrap:hover h3 {
+    color: white;
+}
+
+.service-wrap:hover h3::after {
+    background-color: white;
+}
+
+.service-icon i {
+    font-size: 30px;
+    margin-bottom:18px ;
+    transition: all 0.5s;
+}
+.service-wrap:hover .service-icon i{
+    transform: rotate(360deg);
+}
+
+.service-wrap h3 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+    
+}
+
+.service-wrap p {
+    font-size: 14px;
+    margin-bottom: 0;
+  
+}
+/*--------------------------------------------------------------*/
+.projects-header{
+    text-align: center;
+}
+.projects-header h1 { 
+text-align: center;
+font-weight: bold;
+}
+
+.work {
+margin-top: 50px;
+
+}
+
+.works-wrap img {
+    height: 300px;
+    width: 300px;
+    vertical-align: middle;
+    transition: all 0.5s ease;
+    
+   
+    
+}
+
+.works-wrap {
+    display:inline;
+    padding: 5px;
+   
+   
+    
+}
+.card-body h5 {
+    font-size: 25px;
+font-weight: bolder; 
+}
+
+.works-wrap img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 1em rgba(102, 104, 155, 0.3));
+   
+}
+.works-wrap .a:hover { 
+filter: drop-shadow(0 0 1em rgba(102, 104, 155, 0.3));
+}
+
+/*--------------------------------------------------------------------*/
+.product-item {
+margin: 0 25px;
+}
+
+.product-item-info {
+padding: 10px 0 30px 0;
+}
+
+.product-item-name { 
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.product-item-description{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.product-item-button{
+    color: white;
+    font-weight: 400;
+    border: none;
+    border-color: #204d74;
+    background-color: #337ab7;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+.product-item-button:hover { 
+    filter: drop-shadow(0 0 1em rgba(102, 104, 155, 0.3));
+}
+/*--------------------------------------------------------------------*/
+.about-overlay{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    background: rgba(0, 0, 0, 0.90);
+}
+.about-section { 
+    background: url(../IMG/about.jpg);
+    color: white;
+    font-family: sans-serif;
+    background-size: cover; 
+    background-position: center;
+    
+}
+/*--------------------------------------------------------------------*/
+
+
+.contact-infos {
+     float: left;
+     width: 100%;
+     margin-top: 10px;
+     margin-bottom: -30px;
+     padding-top: 35px;
+     padding-bottom: 35px;
+     background:#000d1a;
+     
+}
+.contact-item .fa { 
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+   
+}
+.contact-item p { 
+    color: white;
+    margin-top: 10px;
+}
+/*--------------------------------------------------------------------*/
+.footer{
+background: #000d1a;
+
+}
+.social-network-footer {
+margin-top: 40px;
+}
+.social-network-footer .fa {
+font-size: 50px;
+color: white ;
+letter-spacing: 50px;
+transition: all 0.3s ease-in;
+
+}
+
+.social-network-footer .fa:hover { 
+    text-decoration: none;
+    color: deepskyblue;
+    filter: drop-shadow(0 0 8px deepskyblue);
+}
+
